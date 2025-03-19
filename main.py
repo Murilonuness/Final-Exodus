@@ -21,7 +21,7 @@ playerImg = pygame.transform.scale(playerImg, (70, 70))
 missil = pygame.image.load('images/missil.png').convert_alpha()
 missil = pygame.transform.scale(missil, (45, 45))
 
-pos_alien_x, pos_alien_y = 500, 360
+pos_alien_x, pos_alien_y = 1280, 300
 pos_player_x, pos_player_y = 200, 300
 vel_missil_x, pos_missil_x, pos_missil_y = 0, 200, 300
 triggered, rodando, pontos = False, True, 0
